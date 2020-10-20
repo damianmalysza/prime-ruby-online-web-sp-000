@@ -6,6 +6,6 @@ def prime?(int)
   if (2..int-1).to_a.any? {|i| int % i == 0 }
     false
   else
-    return true
+    true
   end
 end
